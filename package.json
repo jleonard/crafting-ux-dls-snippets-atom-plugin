@@ -18,6 +18,6 @@
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jleonard/crafting-ux-dls-snippets-atom-plugin"
+        "url": "https://github.com/jleonard/crafting-ux-dls-snippets-atom-plugin"
     }
 }
