@@ -1,6 +1,6 @@
 '.source.css':
 	'css hover example':
-		'prefix':'hover'
+		'prefix':'css-hover'
 		'body':"""
 /* default state */
 ${1:p}{

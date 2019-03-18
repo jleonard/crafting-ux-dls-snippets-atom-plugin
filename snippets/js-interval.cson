@@ -1,6 +1,6 @@
 '.source.js':
 	'js interval':
-		'prefix':'interval'
+		'prefix':'js-interval'
 		'body':"""
 setTimeout(function(){
   ${2:// code in here}

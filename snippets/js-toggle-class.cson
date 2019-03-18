@@ -1,0 +1,6 @@
+'.source.js':
+	'alternate adding and removing a class':
+		'prefix':'js-toggle-class'
+		'body':"""
+toggleClass(${1:'id'},${2:'class-name'});
+	"""

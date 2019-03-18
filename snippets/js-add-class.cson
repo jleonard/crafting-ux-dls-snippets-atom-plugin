@@ -1,0 +1,6 @@
+'.source.js':
+	'add a class to an element':
+		'prefix':'js-add-class'
+		'body':"""
+addClass(${1:'id'},${2:'class-name'});
+	"""

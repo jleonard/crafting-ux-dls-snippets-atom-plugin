@@ -1,6 +1,6 @@
 '.source.css':
 	'css type rules':
-		'prefix':'type'
+		'prefix':'css-type'
 		'body':"""
 font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-size: 38px;

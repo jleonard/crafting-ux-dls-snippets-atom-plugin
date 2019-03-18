@@ -1,0 +1,7 @@
+'.source.js':
+	'show an element on the page':
+		'prefix':'js-toggle'
+		'body':"""
+// pass in an an id that matches an element on the page.
+toggle(${1:'element-id'});
+	"""

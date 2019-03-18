@@ -1,0 +1,7 @@
+'.source.js':
+	'change the text color for an element':
+		'prefix':'js-set-text-color'
+		'body':"""
+// pass in an an id that matches an element on the page.
+setTextColor(${1:'element-id'},${2:'#c30'});
+	"""

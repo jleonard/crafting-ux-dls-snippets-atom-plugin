@@ -1,0 +1,7 @@
+'.source.js':
+	'hides an element on the page':
+		'prefix':'js-hide'
+		'body':"""
+// pass in an an id that matches an element on the page.
+hide(${1:'element-id'});
+	"""

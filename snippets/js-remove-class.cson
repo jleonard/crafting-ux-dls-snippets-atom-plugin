@@ -1,0 +1,6 @@
+'.source.js':
+	'remove a class from an element':
+		'prefix':'js-remove-class'
+		'body':"""
+removeClass(${1:'id'},${2:'class-name'});
+	"""

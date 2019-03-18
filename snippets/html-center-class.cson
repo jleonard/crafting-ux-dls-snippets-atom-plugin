@@ -1,0 +1,8 @@
+'.text.html.basic':
+	'a container that centers on the x/y axis':
+		'prefix':'html-center-class'
+		'body':"""
+<div class='center'>
+  $1
+</div>
+	"""

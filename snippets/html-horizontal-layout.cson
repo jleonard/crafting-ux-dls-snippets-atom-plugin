@@ -1,0 +1,8 @@
+'.text.html.basic':
+	'a horizontal layout container':
+		'prefix':'html-horizontal-layout'
+		'body':"""
+<div class='horizontal-layout'>
+  $1
+</div>
+	"""

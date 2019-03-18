@@ -1,6 +1,6 @@
 '.source.css':
 	'css box rules':
-		'prefix':'box'
+		'prefix':'css-box'
 		'body':"""
 margin-top: 0;
 margin-bottom: 0;

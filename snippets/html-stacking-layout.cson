@@ -1,0 +1,8 @@
+'.text.html.basic':
+	'a vertical layout container':
+		'prefix':'html-stacking-layout'
+		'body':"""
+<div class='stacking-layout'>
+  $1
+</div>
+	"""

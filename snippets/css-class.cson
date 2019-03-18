@@ -1,6 +1,6 @@
 '.source.css':
 	'css class selector':
-		'prefix':'class'
+		'prefix':'css-class'
 		'body':"""
 .${1:class-name}{
   $2

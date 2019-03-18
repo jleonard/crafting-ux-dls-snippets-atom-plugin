@@ -1,6 +1,6 @@
 {
     "name": "crafting-ux-dls-snippets-atom-plugin",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "description": "ui snippets",
     "main": "index.js",
     "scripts": {
@@ -15,5 +15,9 @@
         "snippets"
     ],
     "author": "thejohnleonard@gmail.com",
-    "license": "ISC"
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jleonard/crafting-ux-dls-snippets-atom-plugin"
+    }
 }

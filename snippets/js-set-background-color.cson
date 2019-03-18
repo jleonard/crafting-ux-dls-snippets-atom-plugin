@@ -1,0 +1,7 @@
+'.source.js':
+	'change the background color for an element':
+		'prefix':'js-set-background-color'
+		'body':"""
+// pass in an an id that matches an element on the page.
+setBackgroundColor(${1:'element-id'},${2:'#222'});
+	"""
