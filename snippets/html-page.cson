@@ -1,0 +1,22 @@
+'.text.basic.html':
+	'starter html page':
+		'prefix':'html-page'
+		'body':"""
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>${1:page}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="http://crafting.ux.s3-website-us-east-1.amazonaws.com/dls/latest/css/crafting-ux-dls.min.css">
+  </head>
+  <body>
+    <main>
+      ${2}
+    </main>
+    <script title="web components polyfill for custom elements" src="https://cdnjs.cloudflare.com/ajax/libs/custom-elements/1.2.0/custom-elements.min.js"></script>
+    <script type="text/javascript" src="http://crafting.ux.s3-website-us-east-1.amazonaws.com/dls/latest/js/crafting-ux-dls.min.js"></script>
+  </body>
+</html>
+	"""

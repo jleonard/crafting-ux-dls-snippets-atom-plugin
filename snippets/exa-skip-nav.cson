@@ -1,0 +1,6 @@
+'.text.html':
+	'skip nav for keyboard accessibility':
+		'prefix':'exa-skip-nav'
+		'body':"""
+<exa-skip-nav data-selector="h1,h2"></exa-skip-nav>
+	"""

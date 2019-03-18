@@ -1,0 +1,13 @@
+'.text.html':
+	'exa flexbox grid':
+		'prefix':'exa-grid'
+		'body':"""
+<div class='grid grid--stacking'>
+  <div class='column--8-of-12'>
+    <div></div>
+  </div>
+  <div class='column--4-of-12'>
+    <div></div>
+  </div>
+</div>
+	"""

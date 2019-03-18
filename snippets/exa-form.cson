@@ -1,0 +1,95 @@
+'.text.html':
+	'exa form fields':
+		'prefix':'exa-form'
+		'body':"""
+<form>
+  <div class="grid grid--fixed">
+    <div class="column--full">
+      <span class='label__text'>Email Address</span>
+      <input type="email" placeholder="Email Address" name="email"/>
+    </div>
+    <div class="column--half">
+      <span class='label__text'>First Name</span>
+      <input type="text" placeholder="First Name" name="firstname"/>
+    </div>
+    <div class="column--half">
+      <span class='label__text'>Last Name</span>
+      <input type="text" placeholder="Last Name" name="lastname"/>
+    </div>
+    <div class="column--full">
+      <span class='label__text'>Address</span>
+      <input type="text" name="addr1" placeholder="Number, Street, Apt." />
+    </div>
+    <div class="column--fourth">
+      <span class='label__text'>Zip Code</span>
+      <input type="text" name="zip" placeholder="Zip"/>
+    </div>
+    <div class="column--half">
+      <span class='label__text'>City</span>
+      <input type="text" name="city" placeholder="City"/>
+    </div>
+    <div class="column--fourth">
+      <div class="select">
+        <span class='label__text'>State</span>
+        <select name='state'>
+          <option>Select One</option>
+          <option>CA</option>
+          <option>NY</option>
+          <option>TX</option>
+        </select>
+      </div>
+    </div>
+    <div class="column--full">
+      <label class="label--checkbox">
+        <input type="checkbox"/>
+        <span class='label__text'>Swear you are not a narc.</span>
+      </label>
+      <a href="#">Narc policy.</a>
+    </div>
+    <div class="column--full">
+      <label class="label--switch">
+        <input type="checkbox"/>
+        <span class='label__text'>Email me 6x a day</span>
+      </label>
+    </div>
+    <div class="column--full">
+      <fieldset>
+        <legend>Do you like anchovies?</legend>
+        <label class="label--radio">
+          <input type="radio" name="chovies"/>
+          <span class='label__text'>Yes</span>
+        </label>
+        <label class="label--radio">
+          <input type="radio" name="chovies"/>
+          <span class='label__text'>No</span>
+        </label>
+      </fieldset>
+    </div>
+
+    <div class="column--full">
+      <fieldset>
+        <legend>Do you think radio buttons that look like regular buttons are cool?</legend>
+        <label class="label--button">
+          <input type="radio" name="buttns"/>
+          <span class='label__text'>Yes</span>
+        </label>
+        <label class="label--button">
+          <input type="radio" name="buttns"/>
+          <span class='label__text'>Meh</span>
+        </label>
+        <label class="label--button">
+          <input type="radio" name="buttns"/>
+          <span class='label__text'>No</span>
+        </label>
+      </fieldset>
+    </div>
+    <div class="column--full">
+      <span class='label__text'>Paste your resume</span>
+      <textarea></textarea>
+    </div>
+    <div class="column--full">
+      <input type="submit" value="Submit"/>
+    </div>
+  </div>
+</form>
+	"""

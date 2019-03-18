@@ -1,0 +1,6 @@
+'.text.html.basic':
+	'custom event emitter':
+		'prefix':'exa-event-button'
+		'body':"""
+<exa-event-button data-event='${1:event-name}'>Click</exa-event-button>
+	"""

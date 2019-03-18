@@ -1,0 +1,24 @@
+'.text.html':
+	'table (empty state)':
+		'prefix':'exa-table--empty'
+		'body':"""
+<table class='table--empty'>
+  <caption>Table Caption</caption>
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th>Symbol</th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Net<br>Chg</th>
+      <th>%Chg</th>
+    </tr>
+  </thead>
+  <tbody>
+</table>
+<div class='alert alert--information alert--in-page' aria-atomic=true aria-role='alert'>
+  <span class='alert__message'>There are no items to review at this time.</span>
+</div>
+	"""

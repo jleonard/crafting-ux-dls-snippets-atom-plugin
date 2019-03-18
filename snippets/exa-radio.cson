@@ -1,0 +1,9 @@
+'.text.html':
+	'exa radio button':
+		'prefix':'exa-radio'
+		'body':"""
+<label class="label--radio">
+  <input type="radio" name="radioGroup" />
+  <span class='label__text'>This one</span>
+</label>
+	"""

@@ -1,0 +1,14 @@
+'.source.css':
+	'css hover example':
+		'prefix':'hover'
+		'body':"""
+/* default state */
+${1:p}{
+
+}
+
+/* hover state */
+${1:p}:hover{
+
+}
+	"""

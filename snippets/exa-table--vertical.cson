@@ -1,0 +1,47 @@
+'.text.html':
+	'table (vertical variation)':
+		'prefix':'exa-table--vertical'
+		'body':"""
+<table class='table--vertical'>
+  <caption>Table Caption</caption>
+  <tbody>
+    <tr>
+      <td>Previous Close</td>
+      <td>159.540</td>
+    </tr>
+    <tr>
+      <td>Open</td>
+      <td>160.290</td>
+    </tr>
+    <tr>
+      <td>Bid</td>
+      <td>158.84 x 100</td>
+    </tr>
+    <tr>
+      <td>Ask</td>
+      <td>158.85 x 100</td>
+    </tr>
+    <tr>
+      <td>Day's Range</td>
+      <td>157.86 - 161.00</td>
+    </tr>
+    <tr>
+      <td>52 Week Range</td>
+      <td>131.120 - 180.100</td>
+    </tr>
+    <tr>
+      <td>Volume</td>
+      <td>41,858,272</td>
+    </tr>
+    <tr>
+      <td>Avg. Volume</td>
+      <td>31,029,474</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td></td>
+    </tr>
+  </tfoot>
+</table>
+	"""

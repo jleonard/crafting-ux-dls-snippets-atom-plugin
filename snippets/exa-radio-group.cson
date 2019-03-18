@@ -1,0 +1,16 @@
+'.text.html':
+	'exa radio group':
+		'prefix':'exa-radio-group'
+		'body':"""
+<fieldset>
+  <legend>Which is the best?</legend>
+  <label class="label--radio">
+    <input type="radio" name="radioGroup"/>
+    <span class='label__text'>This one</span>
+  </label>
+  <label class="label--radio">
+    <input type="radio" name="radioGroup"/>
+    <span class='label__text'>That one</span>
+  </label>
+</fieldset>
+	"""

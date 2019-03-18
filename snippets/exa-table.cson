@@ -1,0 +1,173 @@
+'.text.html':
+	'table':
+		'prefix':'exa-table'
+		'body':"""
+<table>
+  <caption>Table Caption</caption>
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th>Symbol</th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Net<br>Chg</th>
+      <th>%Chg</th>
+      <th>Vol</th>
+      <th>52 Week<br>High</th>
+      <th>52 Week<br>Low</th>
+      <th>Div</th>
+      <th>Yield</th>
+      <th>PE</th>
+      <th>Yth<br>%Chg</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Xenia Hotels &amp; Resorts</td>
+      <td><a href="#">XHR</a></td>
+      <td class='td--numeric'>20.44</td>
+      <td class='td--numeric'>20.45</td>
+      <td class='td--numeric'>19.54</td>
+      <td class='td--numeric'>19.57</td>
+      <td class='td--numeric'><span class='value-negative'>-0.84</span></td>
+      <td class='td--numeric'><span class='value-negative'>-4.12</span></td>
+      <td class='td--numeric'>399,037</td>
+      <td class='td--numeric'>22.76</td>
+      <td class='td--numeric'>16.21</td>
+      <td class='td--numeric'>1.10</td>
+      <td class='td--numeric'>5.62</td>
+      <td class='td--numeric'>15.24</td>
+      <td class='td--numeric'><span class='value-negative'>-9.36</span></td>
+    </tr>
+
+    <tr>
+      <td>Xerium Technologies</td>
+      <td><a href="#">XRM</a></td>
+      <td class='td--numeric'>4.47</td>
+      <td class='td--numeric'>4.55</td>
+      <td class='td--numeric'>4.47</td>
+      <td class='td--numeric'>4.52</td>
+      <td class='td--numeric'>0.05</td>
+      <td class='td--numeric'>1.12</td>
+      <td class='td--numeric'>41,432</td>
+      <td class='td--numeric'>7.75</td>
+      <td class='td--numeric'>3.70</td>
+      <td class='td--numeric'>...</td>
+      <td class='td--numeric'>...</td>
+      <td class='td--numeric'>...</td>
+      <td class='td--numeric'>6.10</td>
+    </tr>
+
+    <tr>
+      <td>Xerox</td>
+      <td><a href="#">XRX</a></td>
+      <td class='td--numeric'>31.25</td>
+      <td class='td--numeric'>31.37</td>
+      <td class='td--numeric'>29.80</td>
+      <td class='td--numeric'>29.80</td>
+      <td class='td--numeric'><span class='value-negative'>-1.38</span></td>
+      <td class='td--numeric'><span class='value-negative'>-4.43</span></td>
+      <td class='td--numeric'>3,397,387</td>
+      <td class='td--numeric'>37.42</td>
+      <td class='td--numeric'>26.64</td>
+      <td class='td--numeric'>1.00</td>
+      <td class='td--numeric'>3.36</td>
+      <td class='td--numeric'>50.51</td>
+      <td class='td--numeric'>2.23</td>
+    </tr>
+
+    <tr>
+      <td>Xinyuan Real Estate ADR</td>
+      <td><a href="#">XIN</a></td>
+      <td class='td--numeric'>6.58</td>
+      <td class='td--numeric'>6.63</td>
+      <td class='td--numeric'>6.35</td>
+      <td class='td--numeric'>6.37</td>
+      <td class='td--numeric'><span class='value-negative'>-0.18</span></td>
+      <td class='td--numeric'><span class='value-negative'>-2.75</span></td>
+      <td class='td--numeric'>377,971</td>
+      <td class='td--numeric'>8.29</td>
+      <td class='td--numeric'>4.26</td>
+      <td class='td--numeric'>0.40</td>
+      <td class='td--numeric'>6.28</td>
+      <td class='td--numeric'>9.87</td>
+      <td class='td--numeric'><span class='value-negative'>-6.46</span></td>
+    </tr>
+
+    <tr>
+      <td>XL Group</td>
+      <td><a href="#">XL</a></td>
+      <td class='td--numeric'>41.05</td>
+      <td class='td--numeric'>43.26</td>
+      <td class='td--numeric'>40.02</td>
+      <td class='td--numeric'>41.26</td>
+      <td class='td--numeric'><span class='value-negative'>-0.74</span></td>
+      <td class='td--numeric'><span class='value-negative'>-1.76</span></td>
+      <td class='td--numeric'>12,570,550</td>
+      <td class='td--numeric'>47.27</td>
+      <td class='td--numeric'>33.77</td>
+      <td class='td--numeric'>0.88</td>
+      <td class='td--numeric'>2.13</td>
+      <td class='td--numeric'>...</td>
+      <td class='td--numeric'>17.35</td>
+    </tr>
+
+    <!-- 5 -->
+    <tr>
+      <td>XO Group</td>
+      <td><a href="#">XOXO</a></td>
+      <td class='td--numeric'>18.93</td>
+      <td class='td--numeric'>18.98</td>
+      <td class='td--numeric'>18.50</td>
+      <td class='td--numeric'>18.50</td>
+      <td class='td--numeric'><span class='value-negative'>-0.37</span></td>
+      <td class='td--numeric'><span class='value-negative'>-1.96</span></td>
+      <td class='td--numeric'>104,375</td>
+      <td class='td--numeric'>20.96</td>
+      <td class='td--numeric'>14.99</td>
+      <td class='td--numeric'>...</td>
+      <td class='td--numeric'>...</td>
+      <td class='td--numeric'>56.06</td>
+      <td class='td--numeric'>0.22</td>
+    </tr>
+    <!-- 6 -->
+    <tr>
+      <td>XPO Logistics</td>
+      <td><a href="#">XPO</a></td>
+      <td class='td--numeric'>91.81</td>
+      <td class='td--numeric'>91.81</td>
+      <td class='td--numeric'>84.65</td>
+      <td class='td--numeric'>85.04</td>
+      <td class='td--numeric'><span class='value-negative'>-4.97</span></td>
+      <td class='td--numeric'><span class='value-negative'>-5.52</span></td>
+      <td class='td--numeric'>4,829,711</td>
+      <td class='td--numeric'>98.37</td>
+      <td class='td--numeric'>44.51</td>
+      <td class='td--numeric'>...</td>
+      <td class='td--numeric'>...</td>
+      <td class='td--numeric'>70.87</td>
+      <td class='td--numeric'><span class='value-negative'>-7.15</span></td>
+    </tr>
+    <!-- 7 -->
+    <tr>
+      <td>Xylem</td>
+      <td><a href="#">XYL</a></td>
+      <td class='td--numeric'>71.74</td>
+      <td class='td--numeric'>72.15</td>
+      <td class='td--numeric'>70.21</td>
+      <td class='td--numeric'>70.24</td>
+      <td class='td--numeric'><span class='value-negative'>-1.55</span></td>
+      <td class='td--numeric'><span class='value-negative'>-2.16</span></td>
+      <td class='td--numeric'>1,408,385</td>
+      <td class='td--numeric'>76.81</td>
+      <td class='td--numeric'>46.86</td>
+      <td class='td--numeric'>0.84</td>
+      <td class='td--numeric'>1.20</td>
+      <td class='td--numeric'>40.84</td>
+      <td class='td--numeric'>2.99</td>
+    </tr>
+  </tbody>
+</table>
+	"""

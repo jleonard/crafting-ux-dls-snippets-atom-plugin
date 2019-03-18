@@ -1,0 +1,8 @@
+'.text.html':
+	'exa flexbox column':
+		'prefix':'exa-column'
+		'body':"""
+<div class='column--8-of-12'>
+  <div></div>
+</div>
+	"""

@@ -1,0 +1,8 @@
+'.source.js':
+	'js timeout':
+		'prefix':'timeout'
+		'body':"""
+setInterval(function(){
+  ${2:// code in here}
+},${1:1000});
+	"""

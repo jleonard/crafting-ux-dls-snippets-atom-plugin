@@ -1,0 +1,9 @@
+'.text.html':
+	'exa switch':
+		'prefix':'exa-switch'
+		'body':"""
+<label class="label--switch">
+  <input type="checkbox"/>
+  <span class='label__text'>Check this box.</span>
+</label>
+	"""

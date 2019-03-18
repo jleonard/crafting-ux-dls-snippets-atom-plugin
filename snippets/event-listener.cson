@@ -1,0 +1,8 @@
+'.source.js':
+	'event listener':
+		'prefix':'event-listener'
+		'body':"""
+document.addEventListener('click',function(element){
+  $1
+});
+	"""

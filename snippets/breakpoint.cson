@@ -1,0 +1,8 @@
+'.source.css':
+	'css breakpoint':
+		'prefix':'breakpoint'
+		'body':"""
+@media (min-width: ${1:768px}) {
+  $2
+}
+	"""

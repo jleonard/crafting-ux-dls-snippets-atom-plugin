@@ -1,0 +1,19 @@
+{
+    "name": "crafting-ux-dls-snippets-atom-plugin",
+    "version": "0.0.5",
+    "description": "ui snippets",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "keywords": [
+        "atom",
+        "ui",
+        "snippets"
+    ],
+    "author": "thejohnleonard@gmail.com",
+    "license": "ISC"
+}

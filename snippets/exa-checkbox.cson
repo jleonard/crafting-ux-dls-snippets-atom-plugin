@@ -1,0 +1,9 @@
+'.text.html':
+	'exa checkbox':
+		'prefix':'exa-checkbox'
+		'body':"""
+<label class="label--checkbox">
+  <input type="checkbox"/>
+  <span class='label__text'>Check this box</span>
+</label>
+	"""

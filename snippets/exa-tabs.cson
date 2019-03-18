@@ -1,0 +1,21 @@
+'.text.html':
+	'tabs component':
+		'prefix':'exa-tabs'
+		'body':"""
+<exa-tabs>
+  <ul>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+  </ul>
+  <section>
+    <h2 class='section__title'>Section One</h2>
+  </section>
+  <section>
+    <h2 class='section__title'>Section Two</h2>
+  </section>
+  <section>
+    <h2 class='section__title'>Section Three</h2>
+  </section>
+</exa-tabs>
+	"""

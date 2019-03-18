@@ -1,0 +1,6 @@
+'.text.html':
+	'bordered button variation':
+		'prefix':'exa-button--bordered'
+		'body':"""
+<button class='button--bordered'>Button</button>
+	"""

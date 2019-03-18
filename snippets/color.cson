@@ -1,0 +1,7 @@
+'.source.css':
+	'css box rules':
+		'prefix':'color'
+		'body':"""
+color: #f5f5f5; /* text color */
+background-color: #222; /* background color */
+	"""

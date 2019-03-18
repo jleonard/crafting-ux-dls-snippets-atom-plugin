@@ -1,0 +1,6 @@
+'.text.html':
+	'button link variation':
+		'prefix':'exa-button--link'
+		'body':"""
+<button class='button--link'>Link Button</button>
+	"""

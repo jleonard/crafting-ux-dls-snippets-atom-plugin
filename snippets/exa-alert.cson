@@ -1,0 +1,9 @@
+'.text.html':
+	'page level alert':
+		'prefix':'exa-alert'
+		'body':"""
+<!-- options are alert--information, alert--warning, alert--success, alert--error -->
+<div class='alert alert--information' aria-atomic=true aria-role='alert' aria-describedby='message'>
+  <p id='message' class='alert__message'>Information Message <button class='alert__action'>Alert action</button></p>
+</div>
+	"""
