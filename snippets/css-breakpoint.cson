@@ -3,6 +3,6 @@
 		'prefix':'css-breakpoint'
 		'body':"""
 @media (min-width: ${1:768px}) {
-  $2
+  ${2:/* responsive rules go in here */}
 }
 	"""

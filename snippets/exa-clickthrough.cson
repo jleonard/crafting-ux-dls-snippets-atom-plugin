@@ -1,0 +1,6 @@
+'.text.html.basic':
+	'exa clickthrough component':
+		'prefix':'exa-clickthrough'
+		'body':"""
+<exa-clickthrough data-images="https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-01.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-02.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-03.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-04.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-05.png" data-index="0"><img src="https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-01.png"></exa-clickthrough>
+	"""

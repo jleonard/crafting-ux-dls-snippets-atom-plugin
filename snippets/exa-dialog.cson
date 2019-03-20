@@ -1,0 +1,18 @@
+'.text.html.basic':
+	'exa dialog component':
+		'prefix':'exa-dialog'
+		'body':"""
+<exa-dialog id="test-dialog">
+  <header>
+    <h3>${1:Dialog Title}</h3>
+  </header>
+  <div class="dialog__body">
+    ${2:<p>I'm the dialog content</p>}
+  </div>
+  <footer>
+    <exa-event-button class="button--bordered" data-event="ui.click.cancel">Cancel</exa-event-button>
+    <exa-event-button data-event="ui.click.confirm">Confirm</exa-event-button>
+  </footer>
+</exa-dialog>
+<button id="trigger" data-trigger-dialog="test-dialog">Activate Dialog</button>
+	"""

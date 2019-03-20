@@ -3,6 +3,6 @@
 		'prefix':'js-event-listener'
 		'body':"""
 document.addEventListener('click',function(element){
-  $1
+  ${1:/* your code goes here */}
 });
 	"""

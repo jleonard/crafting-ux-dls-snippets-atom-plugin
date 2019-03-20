@@ -1,0 +1,6 @@
+'.source.css':
+	'a css comment':
+		'prefix':'css-comment'
+		'body':"""
+/* ${1:your comment goes here} */
+	"""

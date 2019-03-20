@@ -2,5 +2,5 @@
 	'custom event emitter':
 		'prefix':'exa-event-button'
 		'body':"""
-<exa-event-button data-event='${1:event-name}'>Click</exa-event-button>
+<exa-event-button data-event='${1:event-name}'>${2:Click me}</exa-event-button>
 	"""

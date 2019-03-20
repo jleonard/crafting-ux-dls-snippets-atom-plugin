@@ -1,0 +1,8 @@
+'.source.js':
+	'javascript function':
+		'prefix':'js-function'
+		'body':"""
+function ${1:nameOfFunction}($2){
+  ${3:/* your code goes here*/}
+}
+	"""
