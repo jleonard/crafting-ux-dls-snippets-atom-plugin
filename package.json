@@ -1,6 +1,6 @@
 {
     "name": "crafting-ux-dls-snippets-atom-plugin",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "ui snippets",
     "main": "index.js",
     "scripts": {
