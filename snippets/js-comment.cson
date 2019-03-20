@@ -1,0 +1,6 @@
+'.source.js':
+	'a javascript comment':
+		'prefix':'js-comment'
+		'body':"""
+/* ${1:your comment goes here} */
+	"""
