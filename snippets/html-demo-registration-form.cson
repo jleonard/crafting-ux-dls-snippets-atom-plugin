@@ -1,5 +1,5 @@
 '.text.html.basic':
-	'the game's registration form':
+	'the game registration form':
 		'prefix':'html-demo-registration-form'
 		'body':"""
 <form>
