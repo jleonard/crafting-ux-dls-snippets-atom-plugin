@@ -1,0 +1,17 @@
+'.text.html.basic':
+	'the registration view for the game':
+		'prefix':'html-demo-registration'
+		'body':"""
+<!-- start registration -->
+  <div id='registration' class='view hidden'>
+
+    <!-- view title -->
+    <h2>Register</h2>
+
+    <!-- start of registration form -->
+    
+    <!-- end of registration form -->
+
+  </div>
+<!-- end registration -->
+	"""

@@ -1,0 +1,11 @@
+'.source.js':
+	'respond to an eliminated player':
+		'prefix':'js-demo-eliminated-event'
+		'body':"""
+socket.on('eliminated',function(person){
+  // set the alert message. use the eliminated user's name.
+  var message = person.data.name + ' has been eliminated.';
+  // emit an alert.player event
+  emit('alert.player',message);
+});
+	"""

@@ -1,0 +1,15 @@
+'.source.js':
+	'event that fires when a card is clicked':
+		'prefix':'js-demo-card-handler'
+		'body':"""
+cardContainer.addEventListener('click',function(e){
+
+  // inspect the event to make sure the user clicked on a player element
+  if(e.target.classList.contains('player')){
+    var player = e.target;
+
+    // get the id attribute on the player HTML, that's the unique id for the player being voted out.
+    var id = player.getAttribute('id');
+
+    // VOTING RULES
+    //	"""

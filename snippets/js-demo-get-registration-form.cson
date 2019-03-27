@@ -1,0 +1,8 @@
+'.source.js':
+	'js':
+		'prefix':'js-demo-get-registration-form'
+		'body':"""
+var name = document.getElementById('registerName').value;
+var phone = document.getElementById('registerPhone').value;
+phone = formatPhone(phone);
+	"""

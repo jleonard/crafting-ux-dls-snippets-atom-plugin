@@ -1,0 +1,21 @@
+'.source.js':
+	'respond when the server updates the player list':
+		'prefix':'js-demo-players-event'
+		'body':"""
+socket.on('players',function(players){
+  // make a local copy of the players list
+  PLAYERS = players;
+
+  // create a new html string to contain the player cards
+  var html = '';
+
+  // loop through the player list
+  for(var ii = 0; ii < PLAYERS.length; ii++){
+    // make a new card for each player
+    html += makeCard(PLAYERS[ii]);
+  }
+
+  // update the card container with the updated player cards
+  cardContainer.innerHTML = html;
+});
+	"""

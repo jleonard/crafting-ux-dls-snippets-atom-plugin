@@ -1,0 +1,30 @@
+'.text.html.basic':
+	'the game's registration form':
+		'prefix':'html-demo-registration-form'
+		'body':"""
+<form>
+  <div class="grid grid--fixed">
+    <div class="column--half">
+
+      <!-- the name input -->
+      <span class='label__text'>Name</span>
+      <input id='registerName' type="text" name="firstname"/>
+
+    </div>
+    <div class="column--half">
+
+      <!-- the phone input -->
+      <span class='label__text'>Phone</span>
+      <input id='registerPhone' type="text" name="phone"/>
+      <span class='label__information'>If using an international number, include the country code.</span>
+
+    </div>
+    <div class="column--full">
+
+      <!-- the register user event button -->
+      <exa-event-button data-event='register.user'>Register</exa-event-button>
+
+    </div>
+  </div>
+</form>
+	"""

@@ -1,0 +1,25 @@
+'.source.js':
+	'js':
+		'prefix':'js-demo-send-registration'
+		'body':"""
+var data = {name:name,phone:phone};
+
+var request = new XMLHttpRequest();
+request.open('POST', CONFIG.server+'/register', true);
+request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+
+// listen for the server response
+request.onreadystatechange = function() {
+  // if the response is successful
+  if(this.readyState == 4 && this.status == 200){
+    // store the user's id in the browser
+    localStorage.setItem('registered',JSON.parse(this.responseText).id);
+
+    // emit a registration complete event
+    emit('registration.complete',JSON.parse(this.responseText).id);
+  }
+};
+
+// send the registration info to the server
+request.send(JSON.stringify(data));
+	"""

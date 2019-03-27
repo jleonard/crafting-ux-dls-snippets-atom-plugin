@@ -1,0 +1,8 @@
+'.source.js':
+	'listen for a server event':
+		'prefix':'js-socket'
+		'body':"""
+socket.on(${1:'event-name'},function(data){
+  ${2:// your code goes here}
+});
+	"""

@@ -1,5 +1,5 @@
 '.source.css':
-	'css box rules':
+	'css color rules':
 		'prefix':'css-color'
 		'body':"""
 color: #f5f5f5; /* text color */

@@ -1,0 +1,18 @@
+'.source.js':
+	'listen for alert.player events':
+		'prefix':'js-demo-alert-player'
+		'body':"""
+document.addEventListener('alert.player',function(e){
+  // set the alert message to whatever was passed to the event.
+  gameAlert.textContent = e.detail;
+
+  // remove the alert--off class to show the alert.
+  gameAlert.classList.remove('alert--off');
+
+  // wait 2500 milliseconds and then run this function
+  setTimeout(function(){
+    // add the alert--off class to hide the alert again.
+    gameAlert.classList.add('alert--off');
+  },2500);
+});
+	"""

@@ -1,0 +1,8 @@
+'.source.js':
+	'make a server call to get the players':
+		'prefix':'js-demo-get-player-list'
+		'body':"""
+var request = new XMLHttpRequest();
+request.open('GET', CONFIG.server+'/players', true);
+request.send();
+	"""

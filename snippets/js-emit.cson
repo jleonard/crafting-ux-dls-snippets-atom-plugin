@@ -1,0 +1,6 @@
+'.source.js':
+	'emit a custom event':
+		'prefix':'js-emit'
+		'body':"""
+emit(${1:'event-name'},${2});
+	"""

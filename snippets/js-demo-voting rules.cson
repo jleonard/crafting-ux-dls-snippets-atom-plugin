@@ -1,0 +1,20 @@
+'.source.js':
+	'logic to run when the time changes':
+		'prefix':'js-demo-voting rules'
+		'body':"""
+// rule #1 - humans can't vote at night
+if(CONFIG.user.role === 'human' && TIME === 'night'){
+  emit('alert.player','Villagers can\'t vote at night.');
+  return false;
+}
+// rule #2 - players can't vote twice in one round
+if(VOTED){
+  emit('alert.player','You\'ve already voted in this round.');
+  return false;
+}
+// rule #3 - you can't vote after you've been eliminated
+if(CONFIG.user.eliminated){
+  emit('alert.player','You can\'t vote after you\'ve been eliminated.');
+  return false;
+}
+	"""

@@ -1,0 +1,14 @@
+'.source.js':
+	'logic to run when the time changes':
+		'prefix':'js-demo-time-event'
+		'body':"""
+// clear any previous time settings on the <body> element
+document.body.classList.remove('time-day');
+document.body.classList.remove('time-night');
+
+// add a class for the current time
+document.body.classList.add('time-'+time);
+
+// update the local TIME variable
+TIME = time;
+	"""

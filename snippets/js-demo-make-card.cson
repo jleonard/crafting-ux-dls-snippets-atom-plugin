@@ -1,0 +1,17 @@
+'.source.js':
+	'the make card function':
+		'prefix':'js-demo-make-card'
+		'body':"""
+function makeCard(player){
+  // has this player been eliminated?
+  var elim = player.data.eliminated === true ? 'eliminated' : 'active';
+
+  // if the player is currently a wolf, reveal the other wolves in a badge.
+  var badge = CONFIG.user.role === 'wolf' && player.data.role === 'wolf' ? '<span class="player-badge">wolf</span>' : '';
+
+  // the html template for the player.
+
+  // return the player's HTML template
+  return card;
+}
+	"""

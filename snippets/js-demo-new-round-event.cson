@@ -1,0 +1,9 @@
+'.source.js':
+	'respond to new events':
+		'prefix':'js-demo-new-round-event'
+		'body':"""
+socket.on('new-round',function(){
+  // undo the previous round's voting block
+  VOTED = false;
+});
+	"""

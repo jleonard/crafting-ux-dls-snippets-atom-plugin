@@ -1,0 +1,12 @@
+'.source.js':
+	'js logic to check if a user is registered':
+		'prefix':'js-demo-check-user'
+		'body':"""
+if (localStorage.getItem('registered') === null) {
+  // if not, emit a registration.incomplete event
+  emit('registration.incomplete',{});
+}else{
+  // otherwise, emit a registration.complete event
+  emit('registration.complete',localStorage.getItem('registered'));
+}
+	"""

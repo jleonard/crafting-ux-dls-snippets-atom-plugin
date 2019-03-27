@@ -1,0 +1,12 @@
+'.source.js':
+	'the html card template':
+		'prefix':'js-demo-player-card'
+		'body':"""
+var card = `<div class="column column--3-of-12">
+  <div id="\${player.id}" class="player player--\${elim}">
+    <h3 class="player-name">\${player.data.name}</h3>
+    <p class='player-eliminated'>\${elim}</p>
+    \${badge}
+  </div>
+</div>`;
+	"""

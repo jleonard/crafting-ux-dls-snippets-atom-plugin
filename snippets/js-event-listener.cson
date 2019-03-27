@@ -2,7 +2,7 @@
 	'event listener':
 		'prefix':'js-event-listener'
 		'body':"""
-document.addEventListener('click',function(element){
-  ${1:/* your code goes here */}
+document.addEventListener(${1:'click'},function(element){
+  ${2:/* your code goes here */}
 });
 	"""

@@ -1,0 +1,8 @@
+'.source.css':
+	'a selector to apply to the page at night':
+		'prefix':'css-demo-night-mode'
+		'body':"""
+body.time-night,.view--dark{
+  ${1:/* your css goes here */}
+}
+	"""

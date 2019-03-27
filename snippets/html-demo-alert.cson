@@ -1,0 +1,10 @@
+'.text.html.basic':
+	'an alert for the game view':
+		'prefix':'html-demo-alert'
+		'body':"""
+<!-- start alert -->
+<div id='gameAlert' class='alert alert--information alert--eliminated alert--off' aria-atomic=true aria-role='alert' aria-describedby='eliminatedMessage'>
+  <p id='gameAlertMessage' class='alert__message'></p>
+</div>
+<!-- end alert -->
+	"""
